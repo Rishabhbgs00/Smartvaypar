@@ -14,8 +14,8 @@ const Home = () => {
 
   useEffect(() => {
     const calculateTimeLeft = () => {
-      const diwaliDate = new Date("2025-10-20T23:59:59");
-      const difference = diwaliDate - new Date();
+      const newYear = new Date("2026-01-01T23:59:59");
+      const difference = newYear - new Date();
       let timeLeft = {};
 
       if (difference > 0) {
@@ -119,7 +119,7 @@ const Home = () => {
                   className={`text-3xl font-bold text-yellow-600 mb-2 font-heading ${language === "hindi" ? "hindi-font" : ""
                     }`}
                 >
-                  🎉 {t("diwaliOffer")} 🎉
+                  🎉 {t("NEW YEAR OFFER")} 🎉
                 </h3>
                 <p
                   className={`text-gray-700 mb-4 ${language === "hindi" ? "hindi-font" : ""

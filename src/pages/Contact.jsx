@@ -42,13 +42,15 @@ const Contact = () => {
     <section className="relative min-h-screen bg-gradient-to-br from-yellow-50 via-white to-yellow-100 flex flex-col items-center justify-center px-6 py-10 overflow-hidden">
 
       <motion.button
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.95 }}
-        onClick={() => setIsHindi(!isHindi)}
-        className="absolute top-8 right-8 bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-4 py-2 rounded-full font-semibold shadow-lg transition-all duration-300 hover:from-yellow-500 hover:to-orange-600"
-      >
-        {isHindi ? "Switch to English " : "हिन्दी में देखें 🇮🇳"}
-      </motion.button>
+  whileHover={{ scale: 1.1 }}
+  whileTap={{ scale: 0.95 }}
+  onClick={() => setIsHindi(!isHindi)}
+  className="absolute top-0 md:top-8 right-8 bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-4 py-2 rounded-full font-semibold shadow-lg transition-all duration-300 hover:from-yellow-500 hover:to-orange-600"
+>
+  {isHindi ? "Form in English " : "हिन्दी में देखें 🇮🇳"}
+</motion.button>
+
+
 
       <AnimatePresence mode="wait">
         {isHindi ? (

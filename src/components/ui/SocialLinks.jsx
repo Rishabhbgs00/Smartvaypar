@@ -23,7 +23,7 @@ export default function SocialLinks() {
       </a>
 
       <a
-        href="https://www.linkedin.com/in/yourprofile"
+        href="https://www.linkedin.com/in/rishabh-mishra-245760208?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         target="_blank"
         rel="noopener noreferrer"
         className="bg-blue-700 text-white p-4 rounded-full shadow-[0_0_15px_#1d4ed8] hover:shadow-[0_0_25px_#1d4ed8] hover:bg-blue-800 transition duration-300"
