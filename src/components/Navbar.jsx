@@ -37,7 +37,7 @@ const Navbar = () => {
           <div className="flex gap-2 items-center">
             <div className="h-[60px] w-[60px]">
               <img
-                src="/src/assets/ChatGPT Image Sep 9, 2025, 05_07_00 PM.png"
+                src="/src/assets/logo.png"
                 className="h-[60px] w-[60px] object-contain"
                 alt="logo"
               />
