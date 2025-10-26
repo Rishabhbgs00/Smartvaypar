@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,11 +37,13 @@ const Navbar = () => {
           {/* Logo Section */}
           <div className="flex gap-2 items-center">
             <div className="h-[60px] w-[60px]">
-              <img
-                src="/src/assets/logo.png"
-                className="h-[60px] w-[60px] object-contain"
-                alt="logo"
-              />
+              
+<img
+  src={logo}
+  alt="Logo"
+  className="h-[60px] w-[60px] object-contain"
+/>
+
             </div>
             <div className="flex-shrink-0">
               <span
